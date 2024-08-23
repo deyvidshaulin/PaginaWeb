@@ -96,7 +96,17 @@ video {
 article,
 aside,
 details,
-figcaption,
+figcaption,}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+…    <link rel=”stylesheet” href=”styles.css”>
+</head>
 figure,
 footer,
 header,
@@ -133,10 +143,3 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AluraBooks</title>
-    <link rel=”stylesheet” href=”reset.css”>
-    <link rel=”stylesheet” href=”styles.css”>
-</head>
