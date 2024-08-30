@@ -96,17 +96,7 @@ video {
 article,
 aside,
 details,
-figcaption,}
-
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
-  content: '';
-  content: none;
-}
-…    <link rel=”stylesheet” href=”styles.css”>
-</head>
+figcaption,
 figure,
 footer,
 header,
